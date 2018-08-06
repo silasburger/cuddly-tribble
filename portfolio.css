@@ -1,0 +1,36 @@
+
+h3 {
+margin-left:0;
+padding:0;
+}
+
+textarea {
+resize: none;
+}
+
+.img-thumbnail {
+  margin: 10x 5px 10px 5px;
+}
+
+footer p {
+padding: 15px;
+}
+
+.contact-info {
+width: 300px;
+}
+
+.contact-info ul {
+list-style-type: none;
+float:left;
+padding-right: 0;
+padding-left: 0;
+}
+
+.contact-info li {
+margin-top: 10px;
+}
+
+.row {
+margin-left: 10px;
+}
