@@ -39,3 +39,7 @@ footer p {
   visibility: hidden;
   margin-left: 20px;
 }
+
+.navbar {
+  margin: 0;
+}
