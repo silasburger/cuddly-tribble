@@ -60,7 +60,7 @@
       <div class="col-md-6">
         <div class="contact-info center-block">
           <ul class="contact-info">
-            <li><h3>silas.burger@gmail.com</h3></li>
+            <li><h3>silasburger.co@gmail.com</h3></li>
             <li><button class="btn-lg" href="https://www.linkedin.com/in/silasburger/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</button></li>
             <li><button class="btn-lg" href="https://www.freecodecamp.org/fcc80ac64cd-3dd0-420b-9f45-49b79d517b1b"><i class="fa fa-free-code-camp" aria-hidden="true"></i> freeCodeCamp</button></li>
             <li><button class="btn-lg" href=""><i class="fa fa-github" aria-hidden="true"></i>
@@ -124,9 +124,9 @@
 
     <div class="col-sm-6">
       <h3>Contact Me</h3>
-      <form action="#">
+      <form action="#contact" method="POST" onsubmit="formSubmit()" netlify>
 
-        <div class="form-group">
+        <div class="form-group">  
           <label for="email">Email</label>
           <input type="email" class="form-control" id="email" placeholder="Enter Email" !>
         </div>
@@ -142,6 +142,7 @@
         </div>
 
           <input type="submit" value="Send" class="btn btn-default">
+          <div id="submitConfirmation">Thanks for reaching out!</div>
 
 
 

@@ -1,1 +1,3 @@
-$(".collapse").collapse()
+$('.collapse').collapse();
+
+function formSubmit() {}
