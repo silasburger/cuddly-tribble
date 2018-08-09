@@ -41,3 +41,11 @@ footer p {
 .hidden {
   display: none;
 }
+
+#email {
+  width: 50%;
+}
+
+.btn-lg {
+  outline: none;
+}
