@@ -37,3 +37,7 @@ footer p {
 .navbar {
   margin: 0;
 }
+
+.hidden {
+  display: none;
+}
