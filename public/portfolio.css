@@ -1,11 +1,10 @@
-
 h3 {
-margin-left:0;
-padding:0;
+  margin-left: 0;
+  padding: 0;
 }
 
 textarea {
-resize: none;
+  resize: none;
 }
 
 .img-thumbnail {
@@ -13,24 +12,30 @@ resize: none;
 }
 
 footer p {
-padding: 15px;
+  padding: 15px;
 }
 
 .contact-info {
-width: 300px;
+  width: 300px;
 }
 
 .contact-info ul {
-list-style-type: none;
-float:left;
-padding-right: 0;
-padding-left: 0;
+  list-style-type: none;
+  float: left;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .contact-info li {
-margin-top: 10px;
+  margin-top: 10px;
 }
 
 .row {
-margin-left: 10px;
+  margin-left: 10px;
+}
+
+#submitConfirmation {
+  display: inline;
+  visibility: hidden;
+  margin-left: 20px;
 }

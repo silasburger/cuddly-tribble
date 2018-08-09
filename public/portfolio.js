@@ -1,3 +1,5 @@
 $('.collapse').collapse();
 
-function formSubmit() {}
+function formSubmit() {
+  $('#submitConfirmation').css('visibility', 'visible');
+}
