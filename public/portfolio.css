@@ -34,12 +34,6 @@ footer p {
   margin-left: 10px;
 }
 
-#submitConfirmation {
-  display: inline;
-  visibility: hidden;
-  margin-left: 20px;
-}
-
 .navbar {
   margin: 0;
 }
