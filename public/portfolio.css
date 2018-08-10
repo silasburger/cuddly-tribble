@@ -61,19 +61,19 @@ footer p {
   width: 50%;
 }
 
-.btn {
+.btn-lg {
   position: relative;
   margin-top: 15px;
   box-shadow: 4px 4px;
 }
 
-.btn:hover {
+.btn-lg:hover {
   top: 2px;
   left: 2px;
   box-shadow: 2px 2px;
 }
 
-.btn:active {
+.btn-lg:active {
   box-shadow: none;
   top: 4px;
   left: 4px;
