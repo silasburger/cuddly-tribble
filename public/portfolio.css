@@ -88,6 +88,11 @@ footer p {
   outline: none;
 }
 
+.btn-default:focus {
+  background-color: white;
+  border-color: #cccccc;
+}
+
 #abtme {
   margin-top: 0;
 }
