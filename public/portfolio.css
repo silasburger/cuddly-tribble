@@ -1,3 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+#landing {
+  height: 100vh;
+  margin-bottom: 0px;
+}
+
+.row > span {
+  position: relative;
+  display: block;
+  top: -50px;
+}
+
 h3 {
   margin-left: 0;
   padding: 0;
@@ -46,10 +61,39 @@ footer p {
   width: 50%;
 }
 
-.btn-lg {
+.btn {
+  position: relative;
+  margin-top: 15px;
+  box-shadow: 4px 4px;
+}
+
+.btn:hover {
+  top: 2px;
+  left: 2px;
+  box-shadow: 2px 2px;
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 4px;
+  left: 4px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
   outline: none;
 }
 
 #abtme {
   margin-top: 0;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
