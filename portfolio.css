@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 65px;
+  background-color: #fdf2e2;
+}
+
+#landing {
+  height: 86vh;
+  margin-bottom: 0px;
+}
+
+.row > span {
+  position: relative;
+  display: block;
+  top: -50px;
+}
+
+h3 {
+  margin-left: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.img-thumbnail {
+  margin: 10x 5px 10px 5px;
+}
+
+.contact-info {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  float: left;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.contact-info li {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#email {
+  width: 50%;
+}
+
+.btn-lg {
+  position: relative;
+  margin-top: 15px;
+  box-shadow: 4px 4px;
+  transition: box-shadow 0s linear;
+}
+
+.corner {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+}
+.btn-lg:hover .corner {
+  border-top: 1px black solid;
+  border-left: 1px black solid;
+  height: 66%;
+  width: 66%;
+}
+
+.btn-lg:active .corner {
+  border-top: 1px black solid;
+  border-left: 1px black solid;
+  height: 100%;
+  width: 100%;
+}
+
+.btn-lg:hover {
+  top: 2px;
+  left: 2px;
+  box-shadow: 2px 2px;
+}
+
+.btn-lg:active {
+  box-shadow: none;
+  top: 4px;
+  left: 4px;
+}
+
+.nav-link {
+  border-left: 2px #5dadaf dashed;
+}
+
+#home {
+  border-left: none;
+}
+
+nav {
+  height: 35px;
+  background-color: #17485e;
+}
+
+a,
+.nav-item {
+  color: white;
+  transition: color 0.2s linear;
+}
+
+a:hover {
+  color: #5dadaf;
+}
+
+.jumbotron {
+  background-color: #f8f8f0;
+  border: 1px #17485e solid;
+}
+
+#about-me {
+  font-size: 24px;
+}
+
+/* .box-holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background: brown;
+  border: 2px solid red;
+}
+.box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  background: transparent;
+  top: -2px;
+  left: -2px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  animation: border1 1s forwards;
+}
+
+@keystroke border1 {
+  100% {
+    height: 100%;
+    width: 100%;
+  }
+} */
+
+/* https://youtu.be/hso-nm9cWmM?t=5m28s */
